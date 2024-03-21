@@ -6,20 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="MkRqEzTGuoSx6LqJUm0OAKxSgNUYt26wTT7RMUZY">
     <link rel="manifest" href="manifest.json">
-    <link rel="apple-touch-icon" href="{{asset('assets/images/favicon.ico')}}">
-    <link rel="icon" href="{{asset('assets/images/favicon.ico')}}" type="image/x-icon">
-    <link rel="icon" href="{{asset('assets/images/favicon.ico')}}" type="image/x-icon">
     <meta name="theme-color" content="#e87316">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Surfside Media">
-    <meta name="msapplication-TileImage" content="assets/images/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Agora_Francia">
+    <meta name="Agora_Francia" content="assets/images/Agora_Francia">
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Surfside Media">
-    <meta name="keywords" content="Surfside Media">
-    <meta name="author" content="Surfside Media">
+    <meta name="description" content="Agora_Francia">
+    <meta name="keywords" content="Agora_Francia">
+    <meta name="author" content="Agora_Francia">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 
     <title>Agora Francia</title>
@@ -27,7 +24,7 @@
     <link id="rtl-link" rel="stylesheet" type="text/css" href="{{asset('assets/css/vendors/bootstrap.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/vendors/ion.rangeSlider.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/vendors/font-awesome.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/vendors/feather-icon.css')}}">
+    
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/vendors/animate.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/vendors/slick/slick.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/vendors/slick/slick-theme.css')}}">

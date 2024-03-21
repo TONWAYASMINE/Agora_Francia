@@ -13,6 +13,7 @@ use App\Http\Controllers\AboutusController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\OrderController;
+use App\Http\Controllers\OrderitemController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +36,8 @@ Route::put('/cart/update',[CartController::class, 'updateCart'])->name('cart.upd
 Route::delete('/cart/remove',[CartController::class, 'removeItem'])->name('cart.remove');
 Route::delete('/cart/clear',[CartController::class, 'clearCart'])->name('cart.clear');
 Route::get('/cart/checkout',[CheckoutController::class, 'cart'])->name('cart.checkout');
-Route::get('/cart/order',[OrderController::class, 'cart'])->name('cart.order');
+Route::get('/cart/orderitem',[OrderitemController::class, 'cart'])->name('cart.orderitem');
+Route::get('/orderitem/order',[OrderController::class, 'orderitem'])->name('orderitem.order');
 
 Route::post('/wishlist/add',[WishlistController::class,'addProductToWishlist'])->name('wishlist.store');
 

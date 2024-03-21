@@ -207,7 +207,7 @@
 
                 <div class="col-lg-4 col-md-6 mt-md-0 mt-3">
                     <div class="subsribe-input">
-                    <form action="{{route('cart.order')}}" method="post">
+                    <form action="{{route('orderitem.order')}}" method="post">
                          @csrf
                         <div class="input-group">
                             <input type="text" class="form-control subscribe-input" placeholder="Your Email Address">

@@ -155,7 +155,7 @@
                                             <h6>Total <span>${{Cart::instance('cart')->total()}}</span></h6>
                                         </div>
                                         <div class="bottom-details">
-                                            <a href="{{route('cart.order')}}">Process Checkout</a>
+                                            <a href="{{route('cart.orderitem')}}">Process Checkout</a>
                                         </div>
                                     </div>
                                 </div>
