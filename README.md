@@ -7,6 +7,38 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+DOCUMENTATION D'UTILISATION DE L'APPLICATION AGORA_FRANCIA
+
+pour le projet nous avons utiliser Laravel :
+-Telcharger Composer et taper: "composer -v" pour voir la version
+
+- Installer laravel: on part dans l'emplacement htdocs sur Xammp puis entrer dans le terminal et taper: "composer create-project laravel/laravel Agora_Francia"
+
+-pour acceder au repertoire du projet taper: cd Agora_Francia
+
+-Pour installer le package laravel/ui dans l'application Laravel taper "composer require laravel/ui"
+
+-Laravel UI prend en charge deux préprocesseurs de CSS : Bootstrap et Vue pour le type de vue d'authentification. "php artisan ui bootstrap --auth" 
+
+-Pour installer toutes les dépendances JavaScript nécessaires et compilera desressources pour une utilisation dans  l'applicationnpm "npm install" 
+
+-pour compiler les ressources (JavaScript, CSS, etc.) en exécutant la commande suivante "run dev"
+
+- lancer le projet sur Visual code: "code . "
+
+- POUR installer la base de donnée 
+aller dans Xampp creer un nouveau dossier appeler "agora" et à l'interieur creer une fichier appeler "agora_franciadb" 
+
+- Pour creer une table "php artisan make:migration create_produits_table"
+
+- Pour faire migrer les table taper "php artisan migrate"
+
+- Pour creer un controller "php artisan make:controller NomDuController"
+
+- commande pour lancer le projet "php artisan serve"
+
+- lancer Xampp pour ouvir l'application
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
