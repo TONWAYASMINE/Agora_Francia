@@ -11,7 +11,10 @@ DOCUMENTATION D'UTILISATION DE L'APPLICATION AGORA_FRANCIA
 
 pour le projet nous avons utiliser Laravel :
 -Telcharger Composer et taper: "composer -v" pour voir la version
+- apres avoir telecharge ou clone le projet sur git : 
+   tapez la commande composer install
 
+si composer et laravel ne sont pas encore installer dans la machine continue avec les etapes suivantes : 
 - Installer laravel: on part dans l'emplacement htdocs sur Xammp puis entrer dans le terminal et taper: "composer create-project laravel/laravel Agora_Francia"
 
 -pour acceder au repertoire du projet taper: cd Agora_Francia
