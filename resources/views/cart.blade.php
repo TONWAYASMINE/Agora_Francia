@@ -169,7 +169,7 @@
               <div class="col-md-12 text-center">
                    <h2>Your cart is empty!</h2>
                         <h5 class="mt-3">Add items to it now.</h5>
-                        <a href="{{ route('checkoutcart.index') }}" class="btn btn-warning mt-5">Shop Now</a>
+                        <a href="{{ route('cart.checkout') }}" class="btn btn-warning mt-5">Shop Now</a>
                </div>
            </div>
             @endif
